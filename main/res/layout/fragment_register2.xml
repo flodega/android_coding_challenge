@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_700"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter house number"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter your city name"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter your country"
+        />
+
+    <Button
+        android:id="@+id/button_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        />
+</LinearLayout>
